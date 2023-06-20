@@ -1,0 +1,35 @@
+.ctn_modal{
+    position: absolute;
+    top: 120px;
+    background-color: #fff;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo{
+    height: 120px;
+}
+
+.logo2{
+    height: 180px;
+}
+
+.menu_item{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.icon{
+    height: 20px;
+    margin-right: 10px;
+    filter: invert(0.6) ;
+}

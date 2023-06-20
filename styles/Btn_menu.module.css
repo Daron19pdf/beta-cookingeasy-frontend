@@ -1,0 +1,22 @@
+.ctn_btn{
+    width: 250px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+    margin: 1.3rem 0;
+    overflow: hidden;
+}
+
+.ctn_btn:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    color: orangered;
+    border: 1px solid orangered;
+}

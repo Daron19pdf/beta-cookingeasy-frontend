@@ -1,0 +1,36 @@
+.ctn_header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: orangered;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.ctn_search{
+    width: 10%;
+}
+
+.ctn_logo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 90px;
+    align-items: center;
+}
+
+.menu{
+    font-size: 20px;
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+}
